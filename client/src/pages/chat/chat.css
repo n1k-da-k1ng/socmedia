@@ -1,0 +1,89 @@
+.messenger{
+    height: calc(100vh-120px);
+    display: flex;
+    background-color:#0a0a0d;
+}
+
+.chatMenu{
+    flex:1;
+    
+}
+
+.chatMenuInput{
+    width: 90%;
+    padding: 10px 0;
+    border:none;
+    border-bottom: 1px solid grey;
+    color:white;
+    
+    background-color:#0a0a0d;
+    
+    
+    
+}
+
+.chatBox{
+    flex:3.5;
+}
+
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    background-image: url("D:/4curs/socmedia/client/public/assets/chat-background.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    
+    
+}
+
+.chatBoxTop{
+    height: 500px;
+    overflow-y: auto;
+    padding-right: 10px;
+    
+}
+
+.ChatBoxBottom{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+
+
+.chatMessageInput
+{
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+    color:white;
+    background-color:#0a0a0d;
+}
+
+.chatSubmitButton{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    background-color:teal;
+    color:white;
+}
+
+/* .chatOnline{
+    flex:3;
+} */
+
+.chatMenuWrapper,.chatBoxWrapper{
+    padding: 10px;
+    height: 100%;
+    /* border:1px solid grey; */
+
+}
+
+

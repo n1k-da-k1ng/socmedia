@@ -1,0 +1,19 @@
+footer {
+    background-color: black;
+    /* color: #fff; */
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerText{
+    background: -webkit-linear-gradient(#c06804,#f0a44c );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  

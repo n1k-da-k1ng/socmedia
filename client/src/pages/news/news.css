@@ -1,0 +1,47 @@
+.News{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2029;
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    
+}
+
+.NewsWrapperBody{
+    
+}
+
+.BenchOfNews{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.NewsWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom:40px ;
+}
+
+.articleTitle{
+    display: flex;
+    color:#ffeba7;
+}
+
+.articleDesc{
+    color:white;
+}
+
+.articleIMG{
+    
+    height: 300px;
+    width: 450px;
+}
+
+.articleLink{
+    margin-top: 10px;
+    color:white;
+    text-decoration: none;
+}
